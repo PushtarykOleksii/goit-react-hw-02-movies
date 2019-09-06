@@ -1,0 +1,16 @@
+.movieGrid {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+  grid-gap: 16px;
+}
+
+.text {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 28px;
+  color: red;
+}
